@@ -18,7 +18,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 watch_list = []
-bot = Bot(token='1912237495:AAGJg1RuxyT7wJcaSmkNrMETRYx5Q_Km1K0')
+bot = Bot(token='')
 
 # Send a message when the command /start is issued
 def start(update, context):
@@ -68,7 +68,7 @@ def start_queue():
     channel.start_consuming()
 
 if __name__ == '__main__':
-    updater = Updater("1912237495:AAGJg1RuxyT7wJcaSmkNrMETRYx5Q_Km1K0", use_context=True)
+    updater = Updater("", use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
