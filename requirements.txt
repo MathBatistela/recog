@@ -1,1 +1,7 @@
 python-telegram-bot==13.7
+grpcio-tools==1.39.0
+grpcio==1.39.0
+numpy==1.20.3
+pika==1.2.0
+protobuf==3.17.3
+schedule==1.1.0
