@@ -7,6 +7,7 @@ At the moment, the app is capable to recognize people appearing in the camera's 
 
 - Overview
 
+![Recog diagram](../main/.media/recog-diagram.png)
 
 - Protocol Buffers structure
 
